@@ -72,5 +72,18 @@ function SlideShow() {
    c.style.display="none";
    d.style.display="block";
     }
+   
+    if(val==="#")
+    {
+   let a=document.querySelector("#snake1");
+   let b=document.querySelector("#snake2");
+   let c=document.querySelector("#snake3");
+   let d=document.querySelector("#snake4");
+
+   a.style.display="block";
+   b.style.display="block";
+   c.style.display="block";
+   d.style.display="block";
+    }
  }); 
 
