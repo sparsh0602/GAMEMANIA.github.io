@@ -31,6 +31,16 @@ function SlideShow() {
    c.style.display="none";
    d.style.display="none";
     
+    let a1=document.querySelector("#DM");
+    let b1=document.querySelector("#SM");
+    let c1=document.querySelector("#TT");
+    let d1=document.querySelector("#FI");
+    
+    a1.style.display="none";
+    b1.style.display="block";
+    c1.style.display="none";
+    d1.style.display="none";
+    
   }
 
   if(val==="TIC TAC TOE")
@@ -44,6 +54,16 @@ function SlideShow() {
    b.style.display="none";
    c.style.display="block";
    d.style.display="none";
+    
+    let a1=document.querySelector("#DM");
+    let b1=document.querySelector("#SM");
+    let c1=document.querySelector("#TT");
+    let d1=document.querySelector("#FI");
+    
+    a1.style.display="none";
+    b1.style.display="none";
+    c1.style.display="block";
+    d1.style.display="none";
      
     }
 
@@ -58,6 +78,16 @@ function SlideShow() {
    b.style.display="block";
    c.style.display="none";
    d.style.display="none";
+      
+    let a1=document.querySelector("#DM");
+    let b1=document.querySelector("#SM");
+    let c1=document.querySelector("#TT");
+    let d1=document.querySelector("#FI");
+    
+    a1.style.display="block";
+    b1.style.display="none";
+    c1.style.display="none";
+    d1.style.display="none";
     }
    
     if(val==="FLIP IT")
@@ -71,6 +101,16 @@ function SlideShow() {
    b.style.display="none";
    c.style.display="none";
    d.style.display="block";
+      
+    let a1=document.querySelector("#DM");
+    let b1=document.querySelector("#SM");
+    let c1=document.querySelector("#TT");
+    let d1=document.querySelector("#FI");
+    
+    a1.style.display="none";
+    b1.style.display="none";
+    c1.style.display="none";
+    d1.style.display="block";
     }
    
     if(val==="#")
@@ -84,6 +124,16 @@ function SlideShow() {
    b.style.display="block";
    c.style.display="block";
    d.style.display="block";
+      
+    let a1=document.querySelector("#DM");
+    let b1=document.querySelector("#SM");
+    let c1=document.querySelector("#TT");
+    let d1=document.querySelector("#FI");
+    
+    a1.style.display="block";
+    b1.style.display="block";
+    c1.style.display="block";
+    d1.style.display="block";
     }
  }); 
 
