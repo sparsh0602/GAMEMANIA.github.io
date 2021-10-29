@@ -26,7 +26,7 @@ function SlideShow() {
   let c=document.querySelector("#snake3");
   let d=document.querySelector("#snake4");
   
-  let e=document.querySelector(".dots");
+  let e=document.querySelector("#dot");
 
    a.style.display="block";
    b.style.display="none";
@@ -53,7 +53,7 @@ function SlideShow() {
    let c=document.querySelector("#snake3");
    let d=document.querySelector("#snake4");
     
-   let e=document.querySelector(".dots");
+   let e=document.querySelector("#dot");
 
    a.style.display="none";
    b.style.display="none";
@@ -80,7 +80,7 @@ function SlideShow() {
    let c=document.querySelector("#snake3");
    let d=document.querySelector("#snake4");
       
-   let e=document.querySelector(".dots");
+   let e=document.querySelector("#dot");
 
    a.style.display="none";
    b.style.display="block";
@@ -106,7 +106,7 @@ function SlideShow() {
    let c=document.querySelector("#snake3");
    let d=document.querySelector("#snake4");
       
-   let e=document.querySelector(".dots");
+   let e=document.querySelector("#dot");
 
    a.style.display="none";
    b.style.display="none";
