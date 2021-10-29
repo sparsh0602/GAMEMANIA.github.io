@@ -40,7 +40,7 @@ function SlideShow() {
     let d1=document.querySelector("#FI");
     
     a1.style.display="none";
-    b1.style.display="block";
+    b1.style.display="none";
     c1.style.display="none";
     d1.style.display="none";
     
@@ -68,7 +68,7 @@ function SlideShow() {
     
     a1.style.display="none";
     b1.style.display="none";
-    c1.style.display="block";
+    c1.style.display="none";
     d1.style.display="none";
      
     }
@@ -93,7 +93,7 @@ function SlideShow() {
     let c1=document.querySelector("#TT");
     let d1=document.querySelector("#FI");
     
-    a1.style.display="block";
+    a1.style.display="none";
     b1.style.display="none";
     c1.style.display="none";
     d1.style.display="none";
@@ -122,30 +122,7 @@ function SlideShow() {
     a1.style.display="none";
     b1.style.display="none";
     c1.style.display="none";
-    d1.style.display="block";
-    }
-   
-    if(val==="#")
-    {
-   let a=document.querySelector("#snake1");
-   let b=document.querySelector("#snake2");
-   let c=document.querySelector("#snake3");
-   let d=document.querySelector("#snake4");
-
-   a.style.display="block";
-   b.style.display="block";
-   c.style.display="block";
-   d.style.display="block";
-      
-    let a1=document.querySelector("#DM");
-    let b1=document.querySelector("#SM");
-    let c1=document.querySelector("#TT");
-    let d1=document.querySelector("#FI");
-    
-    a1.style.display="block";
-    b1.style.display="block";
-    c1.style.display="block";
-    d1.style.display="block";
+    d1.style.display="none";
     }
  }); 
 
