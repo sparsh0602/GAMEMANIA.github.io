@@ -25,11 +25,14 @@ function SlideShow() {
   let b=document.querySelector("#snake2");
   let c=document.querySelector("#snake3");
   let d=document.querySelector("#snake4");
+  
+  let e=document.querySelector(".dots");
 
    a.style.display="block";
    b.style.display="none";
    c.style.display="none";
    d.style.display="none";
+   e.style.display="none";
     
     let a1=document.querySelector("#DM");
     let b1=document.querySelector("#SM");
@@ -49,11 +52,14 @@ function SlideShow() {
    let b=document.querySelector("#snake2");
    let c=document.querySelector("#snake3");
    let d=document.querySelector("#snake4");
+    
+   let e=document.querySelector(".dots");
 
    a.style.display="none";
    b.style.display="none";
    c.style.display="block";
    d.style.display="none";
+   e.style.display="none";
     
     let a1=document.querySelector("#DM");
     let b1=document.querySelector("#SM");
@@ -73,11 +79,14 @@ function SlideShow() {
    let b=document.querySelector("#snake2");
    let c=document.querySelector("#snake3");
    let d=document.querySelector("#snake4");
+      
+   let e=document.querySelector(".dots");
 
    a.style.display="none";
    b.style.display="block";
    c.style.display="none";
    d.style.display="none";
+   e.style.display="none";
       
     let a1=document.querySelector("#DM");
     let b1=document.querySelector("#SM");
@@ -96,11 +105,14 @@ function SlideShow() {
    let b=document.querySelector("#snake2");
    let c=document.querySelector("#snake3");
    let d=document.querySelector("#snake4");
+      
+   let e=document.querySelector(".dots");
 
    a.style.display="none";
    b.style.display="none";
    c.style.display="none";
    d.style.display="block";
+   e.style.display="none";
       
     let a1=document.querySelector("#DM");
     let b1=document.querySelector("#SM");
