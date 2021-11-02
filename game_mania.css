@@ -46,7 +46,7 @@ nav a:hover{
   font-weight: bolder;
   font-size: 1.35vw;
   margin-top: 1vw;
-  text-shadow: 0.125vw 0.125vw red;
+  text-shadow: 0.125vw 0.125vw rgb(236, 15, 236);
   
 }
 
@@ -151,6 +151,29 @@ select{
       opacity: 0;
   }
 }
+@media screen and (max-width: 650px)
+{
+  select{
+    margin-left: 15vw;
+    width: 25vw;
+    height: 5vw;
+    background: linear-gradient(rgb(194, 194, 226),rgb(89, 89, 119));
+    border: 2px solid black;
+  }
+
+  .note{
+    position: absolute;
+    color: white;
+    right: 1vw;
+    background: linear-gradient(rgb(53, 170, 53),rgb(164, 167, 38));
+    font-weight: 200px;
+    font-size: 1.35vw;
+    margin-top: 1vw;
+    text-shadow: 0.125vw 0.125vw rgb(236, 15, 236);
+    
+  }
+}
+
 
 
 
