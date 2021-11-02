@@ -1,15 +1,3 @@
-let selectElem=document.querySelector("select");
-let size=window.innerWidth;
-if(size<=650)
-{
-selectElem.style.marginLeft=5;
-selectElem.style.width=50;
-selectElem.style.height=50;
-
-let option=document.querySelector(".options");
-option.innerText="SEARCH";
-}
-
 
 var slidePosition = 0;
 SlideShow();
