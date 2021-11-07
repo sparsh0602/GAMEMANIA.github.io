@@ -1,4 +1,5 @@
 
+// SLIDESHOW
 var slidePosition = 0;
 SlideShow();
 
@@ -15,8 +16,36 @@ function SlideShow() {
 } 
 
 
+// DOTS ANIMATION BELOW SLIDESHOW
+let ball=document.querySelectorAll(".dots");
+let idx=1;
+let curr=1;
+let prev=0;   
+ function animat(idx)
+{
+ ball[prev].style.opacity=1;
+if(idx=0)
+prev=ball.length-1;
+else
+prev=curr;
 
- document.getElementsByTagName('select')[0].addEventListener('change',function(){ 
+if(curr==ball.length-1)
+curr=0;
+else
+curr=curr+1;
+
+ball[prev].style.opacity=0.5;
+
+setTimeout(() => {
+    
+    animat(idx+1);
+}, 2350);
+}
+animat(idx);
+
+
+// SEARCH BAR SELECTION
+  document.getElementsByTagName('select')[0].addEventListener('change',function(){ 
   var val = document.getElementsByTagName('select')[0].value; 
  
   
@@ -126,4 +155,6 @@ function SlideShow() {
     d1.style.display="none";
     }
  }); 
+
+
 
