@@ -46,7 +46,7 @@ nav a:hover{
   font-weight: bolder;
   font-size: 1.35vw;
   margin-top: 1vw;
-  text-shadow: 0.125vw 0.125vw rgb(236, 15, 236);
+  text-shadow: 0.125vw 0.125vw rgb(8, 4, 245);
   
 }
 
@@ -169,7 +169,7 @@ select{
     font-weight: 200px;
     font-size: 1.35vw;
     margin-top: 1vw;
-    text-shadow: 0.125vw 0.125vw rgb(236, 15, 236);
+    text-shadow: 0.125vw 0.125vw rgb(8, 4, 245);
     
   }
 }
